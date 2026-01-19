@@ -1,0 +1,96 @@
+<h1 id="ollama">Ollama</h1>
+
+
+<p>Ollama es una plataforma de modelos de lenguaje grande (LLM) que te
+permite ejecutar y gestionar modelos de lenguaje localmente. Se maneja a
+través de la línea de comandos (CLI) pero puedes integrarlo con
+diferentes interfaces gráficas y servidores web para facilitar su
+uso.</p>
+
+
+<p>/img_ollama/`</p>
+
+
+<h2 id="instalación">Instalación</h2>
+
+<p>Para instalar Ollama, sigue estos pasos:</p>
+
+<ol type="1">
+
+    <li><p>Abre la terminal en Linux</p></li>
+
+    <li><p>Instala curl si no lo tienes instalado</p></li>
+
+    <li><p>Ejecuta el siguiente comando</p></li>
+
+</ol>
+
+<p><code>curl -fsSL https://ollama.com/install.sh | sh</code></p>
+
+<ol start="4" type="1">
+
+    <li>Una vez instalado, puedes verificar la instalación ejecutando:</li>
+
+</ol>
+
+<p><code>ollama version</code></p>
+
+<h2 id="uso-básico">Uso básico</h2>
+
+<p>Puedes descargar modelos preentrenados con
+
+    <code>ollama pull &lt;modelo&gt;</code>, por ejemplo:</p>
+
+    <p><code>ollama pull qwen2.5:0.5b</code></p>
+
+    <p>Descargará el modelo <em>qwen2.5</em> de 0.5 billones de parámetros.
+
+        Para listar los modelos disponibles localmente, usa:</p>
+
+        <p><code>ollama list</code></p>
+
+        <p>Si quieres ejecytar un modelo y hacerle preguntas, usa:</p>
+
+        <p><code>ollama run &lt;modelo&gt;</code></p>
+
+        <h2 id="acerca-de-los-modelos">Acerca de los modelos</h2>
+
+        <p>Los modelos tienen diferentes capacidades y tamaños. Siguiendo el
+
+            ejemplo anterior, en la página de <a
+
+            href="https://ollama.com/">Ollama</a> podemos encontrar diferentes
+
+            versiones de <em>qwen2.5</em>:</p>
+
+            <ul>
+
+                <li><code>qwen2.5:0.5b</code> -0.5 billones de parametros</li>
+
+                <li><code>qwen2.5:1.5b</code> -1.5 billones de parámetros</li>
+
+                <li><code>qwen2.5:3b</code> - 3billones de parametros</li>
+
+            </ul>
+
+            <p>Cuantos más parámetros, mayor capacidad de comprensión y generación
+
+                de texto, pero también requerirá más recursos del sistema.</p>
+
+                <h2 id="usos-de-ollama">Usos de ollama</h2>
+
+                <p>Puedes usar Ollama para diversas tareas:</p>
+
+                <ul>
+
+                    <li>Generación de texto</li>
+
+                    <li>Resumen de documentos</li>
+
+                    <li>Traducción de idiomas</li>
+
+                    <li>Respuesta a preguntas</li>
+
+                    <li>Integración con aplicaciones personalizadas</li>
+
+                </ul>
